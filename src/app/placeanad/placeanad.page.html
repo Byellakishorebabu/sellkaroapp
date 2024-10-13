@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-button slot="start" class="bgnone">
+      <img src="../../assets/arrow-left.svg" alt="back-button"  >
+    </ion-button>
+    <ion-title class="ion-text-center">Place an ad</ion-title>
+    <ion-button slot="end" class="bgnone">
+      <ion-icon name="close-circle" slot="end" size="medium" style="color: black;" ></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+<h5 >You're almost there!</h5>
+Include as much details and pictures as possible!
+<form class="ion-margin-top">
+
+    <ion-item>
+      <ion-input label="Location" label-placement="floating" fill="outline" placeholder="select location"></ion-input>
+
+    </ion-item><br>
+    <ion-item>
+      <ion-select label="Mobile Type" placeholder="select mobile type">
+        <ion-select-option value="phone">phone</ion-select-option>
+        <ion-select-option value="tablet">tablet</ion-select-option>
+        <ion-select-option value="desktop">desktop</ion-select-option>
+      </ion-select>
+    </ion-item><br>
+    <ion-item>
+      <ion-select label="Brand" placeholder="select brand type">
+        <ion-select-option value="Apple">Apple</ion-select-option>
+        <ion-select-option value="Samsung">Samsung</ion-select-option>
+        <ion-select-option value="Vivo">Vivo</ion-select-option>
+      </ion-select>
+    </ion-item><br>
+
+    <ion-item >
+      <ion-input label="Add Title" label-placement="floating" fill="outline" placeholder="Enter title"></ion-input>
+    </ion-item><br>
+    <ion-item>
+      <ion-textarea label="Describe" labelPlacement="floating" fill="outline" placeholder="Enter text"></ion-textarea>
+    </ion-item><br>
+    <ion-item >
+      <!-- <ion-button fill="outline" class="custom-button"> -->
+        <ion-input type="file" label="Add Photos"fill="outline" class="custom-button" ></ion-input>
+      <!-- </ion-button> -->
+      <!-- <ion-input label="Add Photos"  ></ion-input> -->
+    </ion-item><br>
+    <ion-item >
+      <ion-input label="Price" label-placement="floating" fill="outline" placeholder="Enter Prcie"></ion-input>
+    </ion-item><br>
+
+    <ion-button size="large" class="nxtbtn">Next</ion-button>
+
+</form>
+</ion-content>
+

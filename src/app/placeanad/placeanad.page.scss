@@ -1,0 +1,17 @@
+.custom-button {
+  --color:red;
+  --border-color: red; /* Outline color */
+  --border-width: 2px; /* Optional: adjust border width */
+}
+
+.bgnone{
+  --background: transparent; /* Removes background */
+  --box-shadow: none; /* Removes shadow */
+  --border: none; /* Removes any border */
+}
+
+.nxtbtn
+{
+  --background:red;
+  inline-size: 50%;
+}
